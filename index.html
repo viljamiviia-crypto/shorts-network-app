@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shorts Network</title>
+<style>
+  :root { --bg: #f7f5f0; --text: #1f2328; --muted: #57606a; --accent: #9a5b2b; --card: #ffffff; --line: #e4e0d6; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #15171a; --text: #e8e6e1; --muted: #a3a8ae; --accent: #e0a46b; --card: #1d2024; --line: #2c3036; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 16px 64px; }
+  h1 { font-size: 2rem; margin: 0 0 4px; }
+  .tagline { color: var(--muted); margin: 0 0 32px; }
+  section { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 20px 24px; margin-bottom: 16px; }
+  h2 { font-size: 1.1rem; margin: 0 0 8px; }
+  p, ul { margin: 0 0 8px; }
+  a { color: var(--accent); }
+  footer { color: var(--muted); font-size: 0.9rem; margin-top: 32px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Shorts Network</h1>
+  <p class="tagline">A private publishing and analytics tool for its owner's YouTube channels.</p>
+
+  <section>
+    <h2>What it is</h2>
+    <p>Shorts Network is a small tool that runs on its owner's own computer. It uploads YouTube Shorts to the
+       owner's channels and reads those channels' YouTube Analytics, so each new video can be improved based on
+       how the previous ones performed.</p>
+    <p>It is not a public service: only the owner's own channels are connected to it.</p>
+  </section>
+
+  <section>
+    <h2>How it uses Google sign-in</h2>
+    <p>When a channel is connected, Google asks for permission to:</p>
+    <ul>
+      <li>upload videos to the channel,</li>
+      <li>read the channel's basic information and video list, and</li>
+      <li>read the channel's YouTube Analytics reports.</li>
+    </ul>
+    <p>The tool uses YouTube API Services. Details are in the <a href="privacy.html">privacy policy</a>.</p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Questions: <a href="mailto:coppercompound77@gmail.com">coppercompound77@gmail.com</a></p>
+  </section>
+
+  <footer>
+    <a href="privacy.html">Privacy policy</a> ·
+    <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>
+  </footer>
+</main>
+</body>
+</html>
